@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            min-height: 100vh;
+            place-items: center;
+            line-height: 1.6;
+            background: #13181c;
+            font-family: sans-serif;
+        }
+        .card
+        {
+            color: #fff;
+            background-image: url(img/bg.jpg);
+            background-size: cover;
+            padding: 8rem 0 0;
+            max-width: 35ch;
+           
+        }
+        /* .card:hover
+        {
+            transform: scale(1.05);
+        } */
+        .card:hover .card-title::after
+        {
+            transform: scaleX(1);
+        }
+        .content
+        {
+            padding: 1.5rem;
+            background:linear-gradient(hsl(0 0% 0%/0.5),
+            hsl(0 0% 0%/1)
+            )
+        }
+        .card-title
+        {
+            position: relative;
+            /* width: max-content;Same size havi asel tr */
+        }
+        .card-title::after
+        {
+          content: "";
+          position: absolute;
+          height: 4px;
+          width: 100%;
+          background: green;
+          left: 0;
+          bottom: 0;
+          transform: scaleX(0);
+          transform-origin: left;
+          transition: transform 500ms ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="content">
+       <h2 class="card-title">
+        Card is As
+       </h2>
+       <p class="card-body">
+        dwedwefwe fgerertre drgrgrer rgreert rgrere 
+        hEllo welocme here fffg fgfdgfdgfdgfggfdgfdg gfdfgdfg All is fine.
+       </p>
+       <a href="" class="button">Learn More</a>
+      </div>
+    </div>
+</body>
+</html>

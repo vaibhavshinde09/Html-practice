@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+         display: grid;
+         height: 100vh;
+         place-items:center;
+        }
+        .button
+        {
+            /* background-color: green; */
+            color: green;
+            border: green 4px solid;
+            cursor: pointer;
+            font-size: 4rem;
+            border-radius: 4px;
+            text-decoration: none;
+            padding: 0.25rem 1rem;
+            text-shadow: 0 0 0 0.125em hsl(0 0% 100%/0.5),0 0 0.45em green;
+            box-shadow: 0 0 0.5em 0 green;
+            position: relative;
+        }
+        .button::before
+        {
+            left: 0;
+            right: 0;
+            background:green;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            content: "";
+            top: 120px;
+            transform: perspective(1em) rotateX(40deg) scale(1,0.35);
+        }
+    </style>
+</head>
+<body>
+    <div class="button">
+        Hello World
+    </div>
+</body>
+</html>

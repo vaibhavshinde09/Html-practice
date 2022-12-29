@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            height: 100vh;
+            background: #191923;
+            overflow:visible;
+        }
+        .maingrid
+        {
+
+        padding: 15px;
+        background: #191923;
+        width: 100vw;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        }
+        .maingrid .art-app-wrapper 
+        {
+            max-width: 1440px;
+            margin-left: auto;
+            margin-right: auto;
+            background: #1e1e28;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+            -webkit-box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+            box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+           }
+.art-info-bar {
+    background: #20202a;
+    width: 290px;
+    min-width: 290px;
+    height: calc(100vh - 30px);
+    position: relative;
+    z-index: 999;
+    -webkit-box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+    box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+    -webkit-transition: .55s ease-in-out;
+    transition: .55s ease-in-out;
+}
+       
+    </style>
+</head>
+<body>
+    <div class="maingrid">
+        <div class="art-app-wrapper">
+          <div class="art-info-bar"></div>
+        </div>
+    </div>
+</body>
+</html>

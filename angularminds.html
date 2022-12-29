@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        body
+        {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        nav
+        {
+            background-color: #0082e6;
+            height: 80px;
+            width: 100%;
+        }
+        label.logo
+        {
+            font-size: 35px;
+            font-weight: 600;
+            color: white;
+            padding: 0 100px;
+            line-height: 80px;
+        }
+        nav ul{
+            float: right;
+            margin-right: 20px;
+        }
+        nav ul li
+        {
+            position: relative;
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px;
+        }
+        /* nav ul :hover li a::after
+        {
+            cursor: pointer;
+            transform: scaleX(0);
+            
+        } */
+        li a:hover,a::after
+        {
+            /* position: absolute;  */
+            /* background-color: red; */
+            width: 100%;
+            height: 5px;
+            content: "";
+            left: 0;
+            bottom: 0;
+            border-bottom: 2px solid red;
+            line-height: 20px;
+            /* transform: scaleX(1); */
+          /* position: absolute;
+          height: 4px;
+          width: 100%;
+          background: green;
+          left: 0;
+          bottom: 0; */
+
+        }
+        nav ul li a
+        {
+            text-transform: uppercase;
+            color: white;
+            font-size: 18px;
+        }
+        .bars {
+            font-size: 25px;
+            float: right;
+            line-height: 80px;
+            margin-right: 10px;
+            }
+        /* a.active,a:hover
+        {
+            background: #1b9bff;
+            transition: .5s;
+        } */
+    </style>
+   <!-- <link id="style" href="style.css" rel="stylesheet" /> -->
+</head>
+<body>
+  <nav>
+   <label class="bars"><i class="fa fa-bars"></i></label> 
+    <label class="logo">
+        Ux1
+    </label>
+    <ul>
+        <li class="active">
+            <a >Home</a>
+        </li>
+        <li>
+            <a class="">About Us</a>
+        </li>
+        <li>
+            <a class="">FeedBack</a>
+        </li>
+        <li>
+            <a class="">Contct Us</a>
+        </li>
+    </ul>
+  </nav>
+</body>
+</html>

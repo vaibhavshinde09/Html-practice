@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500.144" height="278.739" viewBox="0 0 500.144 278.739">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.886" gradientUnits="objectBoundingBox">
+      <stop offset="0.133" stop-color="#fff"/>
+      <stop offset="0.207" stop-color="#f7f7f7"/>
+      <stop offset="0.323" stop-color="#e1e1e1"/>
+      <stop offset="0.465" stop-color="#bdbdbd"/>
+      <stop offset="0.627" stop-color="#8b8b8b"/>
+      <stop offset="0.808" stop-color="#4b4b4b"/>
+      <stop offset="1"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_89" data-name="Group 89" transform="translate(-2126.966 -6598.338)">
+    <path id="Path_7" data-name="Path 7" d="M500.034,278.077-.034,277.922.042,32.764C.047,14.665,17.282,0,38.555.006L461.6.137c21.273.006,38.512,14.682,38.506,32.782Z" transform="translate(2127 6599)" fill="#03293c"/>
+    <path id="Path_8" data-name="Path 8" d="M499.619,276.256.758,277.725.038,33.359C-.015,15.317,17.131.643,38.352.581L460.38-.662C481.6-.724,498.846,13.849,498.9,31.89Z" transform="translate(2127 6599)" fill="url(#radial-gradient)" style="mix-blend-mode: soft-light;isolation: isolate"/>
+  </g>
+</svg>
